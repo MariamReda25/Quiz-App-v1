@@ -13,7 +13,6 @@ The main goal of this project is to **deeply understand complex state management
 - Learn how to manage **complex, interrelated state**
 - Apply **action-based state transitions**
 - Build a realistic mini-app instead of isolated examples
- 
 
 ---
 
@@ -85,13 +84,15 @@ Each action represents a **clear user interaction or state transition**.
 - How to model UI behavior using actions
 - Writing cleaner and more maintainable reducers
 - Separating UI components from state logic
- 
+
 ---
 
 ## 📌 Notes
 
 - This project is for **learning and practice purposes**
 - Built after completing **Advanced `useReducer`** section
-- Inspired by patterns taught in *The Ultimate React Course*
+- Inspired by patterns taught in _The Ultimate React Course_
 
-  
+## Live Demo
+
+[quiz-app](https://quiz-app-v1-gilt.vercel.app/)
