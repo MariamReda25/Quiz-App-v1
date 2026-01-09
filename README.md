@@ -96,3 +96,16 @@ Each action represents a **clear user interaction or state transition**.
 ## Live Demo
 
 [quiz-app](https://quiz-app-v1-gilt.vercel.app/)
+
+
+## 🧪 Fake API Setup
+
+To run this project locally, you need to start the **fake API server**.
+
+This app uses a mock REST API (JSON Server) to fetch quiz data.
+
+### Steps:
+1. Install JSON Server (if not installed):
+   ```bash
+   npm install -g json-server
+2. npm run server
