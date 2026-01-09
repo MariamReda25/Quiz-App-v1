@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 6.4rem;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  cursor: pointer;
+}
+.header__title .subject__title {
+  font-size: 3.2rem;
+}
+.header__title .subject__icon {
+  width: 8rem;
+  height: 8rem;
+  padding: 2rem;
+}
+@media only screen and (max-width: 39em) {
+  .header__title .subject__title {
+    font-size: 2.4rem;
+  }
+  .header__title .subject__icon {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.2rem;
+  }
+}

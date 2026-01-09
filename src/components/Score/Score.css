@@ -1,0 +1,31 @@
+.score {
+  background-color: var(--color-box);
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+  border-radius: 15px;
+}
+
+.score__title {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.score__title .subject__title {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.score__title .subject__icon {
+  width: 8.4rem;
+  height: 8.4rem;
+  padding: 2rem;
+}
+.score__value {
+  font-size: 15rem;
+  font-weight: 600;
+}
+.score__total {
+  font-size: 2.4rem;
+}

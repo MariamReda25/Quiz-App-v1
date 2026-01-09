@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🧠 Quiz App (useReducer Practice)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Quiz Application** built as a **practice project after finishing the Advanced `useReducer` section** in  
+**The Ultimate React Course** by _Jonas Schmedtmann_ on Udemy.
 
-## Available Scripts
+The main goal of this project is to **deeply understand complex state management using `useReducer`**, action-driven logic, and clean component structure in React.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Project Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Practice **advanced `useReducer` patterns**
+- Learn how to manage **complex, interrelated state**
+- Apply **action-based state transitions**
+- Build a realistic mini-app instead of isolated examples
+ 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧩 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Select quiz subject
+- Display questions dynamically
+- Select and submit answers
+- Navigate between questions
+- Calculate and display final score
+- Restart the quiz
+- Light / Dark theme toggle
+- Loading & error handling states
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- JavaScript (ES6+)
+- `useReducer`
+- `useEffect`
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 State Management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses **`useReducer`** instead of multiple `useState` hooks to manage:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Quiz data
+- Application status (`loading`, `ready`, `start`, `finish`, `error`)
+- Current question index
+- Selected answer
+- Score calculation
+- Theme (light / dark)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Why `useReducer`?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Centralized state logic
+- Predictable state transitions
+- Easier debugging
+- Better scalability for complex UI logic
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔁 Reducer Actions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Examples of handled actions:
 
-### Code Splitting
+- `data/receive`
+- `subject/select`
+- `option/select`
+- `btn/submit`
+- `btn/next`
+- `theme/toggle`
+- `again`
+- `error`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Each action represents a **clear user interaction or state transition**.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🎓 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- When to prefer `useReducer` over `useState`
+- How to model UI behavior using actions
+- Writing cleaner and more maintainable reducers
+- Separating UI components from state logic
+ 
+---
 
-### Advanced Configuration
+## 📌 Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- This project is for **learning and practice purposes**
+- Built after completing **Advanced `useReducer`** section
+- Inspired by patterns taught in *The Ultimate React Course*
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  

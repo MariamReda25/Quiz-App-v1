@@ -1,0 +1,20 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+}
+.questions__progress {
+  -webkit-appearance: none;
+  margin-top: auto;
+  width: 90%;
+}
+.questions__progress::-webkit-progress-bar {
+  background-color: var(--color-box);
+  border-radius: 23px;
+  width: 100%;
+  height: 1.6rem;
+  overflow: hidden;
+}
+.questions__progress::-webkit-progress-value {
+  background-color: var(--color-secondary);
+  border-radius: 23px;
+}

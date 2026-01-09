@@ -1,0 +1,35 @@
+.subject__icon {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 11px;
+}
+.subject__icon--HTML {
+  background-color: var(--html-bg-color);
+}
+.subject__icon--CSS {
+  background-color: var(--css-bg-color);
+}
+.subject__icon--JavaScript {
+  background-color: var(--js-bg-color);
+}
+.subject__icon--Accessibility {
+  background-color: var(--accessibility-bg-color);
+}
+.subject__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: inherit;
+}
+@media only screen and (max-width: 39em) {
+  .subject__icon {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 11px;
+  }
+}

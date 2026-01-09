@@ -1,0 +1,44 @@
+.option {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  background-color: var(--color-box);
+  padding: 2.4rem;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.4s;
+  border: 3px solid transparent;
+}
+.option__number {
+  background-color: var(--background-color);
+  font-size: 1.8rem;
+  padding: 2rem;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.option__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.option.selected {
+  border: 3px solid var(--color-secondary);
+}
+.option__number.selected {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+.option.valid {
+  border: 3px solid var(--color-valid);
+}
+.option__number.valid {
+  background-color: var(--color-valid);
+  color: var(--color-white);
+}
+.option.invalid {
+  border: 3px solid var(--color-invalid);
+}
+.option__number.invalid {
+  background-color: var(--color-invalid);
+  color: var(--color-white);
+}
