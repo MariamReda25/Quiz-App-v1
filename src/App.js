@@ -129,7 +129,8 @@ export default function App() {
 
   useEffect(
     function () {
-      document.body.classList.toggle("dark");
+      if (theme === "dark") document.body.classList.add("dark");
+      else document.body.classList.remove("dark");
     },
     [theme]
   );
