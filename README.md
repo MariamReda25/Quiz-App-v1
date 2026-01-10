@@ -93,9 +93,12 @@ Each action represents a **clear user interaction or state transition**.
 - Built after completing **Advanced `useReducer`** section
 - Inspired by patterns taught in _The Ultimate React Course_
 
-## Live Demo
+## Project deployment:
 
 [quiz-app](https://quiz-app-v1-gilt.vercel.app/)
+
+## Live Demo :
+[Quiz-App-DEMO](https://drive.google.com/file/d/1y3-dIcfm1qHDjhkFFRyDMz06W_zdMgpq/view?usp=drive_link)
 
 
 ## 🧪 Fake API Setup
